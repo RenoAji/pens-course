@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+li {
+  list-style: none;
+  padding: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background-color: rgb(56, 56, 136);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header .nav-link {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero {
+  background-color: rgb(56, 56, 136);
+  color: white;
+}
+
+.sign button {
+  background-color: rgb(56, 56, 136);
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px 40px 5px 40px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.hero button,
+.banner button {
+  color: white;
+  background-color: rgb(255, 191, 0);
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px 40px 5px 40px;
+}
+
+.jurusan button,
+.profile button {
+  background-color: rgb(56, 56, 136);
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  padding: 2px 20px 2px 20px;
+}
+
+.benefit h4,
+.matkul h4,
+.profile h5 {
+  color: rgb(72, 72, 195);
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.banner {
+  background-color: rgb(56, 56, 136);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+.footer {
+  background-color: rgba(137, 137, 137, 0.138);
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign .section {
+  width: 50%;
+  padding: 5em 3em 6em 3em;
+}
+
+.item-jurusan {
+  width: 9em;
+  height: 9em;
+  transition: 0.3s ease-in-out;
+}
+
+.item-jurusan:hover {
+  background-color: rgba(219, 219, 219, 0.345);
+  scale: 1.05;
+}
+
+.detail-matkul h4,
+.detail-jurusan h4 {
+  color: rgb(72, 72, 195);
+}
+
+body,
+#root,
+.layout {
+  min-height: 100vh;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
 }
