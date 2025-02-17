@@ -116,7 +116,7 @@ export default class Jurusan extends Component {
   state = { items: items };
 
   change = (e) => {
-    if (e.target.value != "") {
+    if (e.target.value !== "") {
       this.jurusan = jurusan.filter((i) => {
         return i.nama.toLowerCase().includes(e.target.value.toLowerCase()); // Search in `name`
       });
