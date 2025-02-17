@@ -7,7 +7,7 @@ import React from "react";
 const jurusan = [
   {
     nama: "Teknik Informatika",
-    svg: `          <svg
+    svg: `<svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
           height="32"
